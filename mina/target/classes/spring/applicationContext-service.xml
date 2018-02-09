@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+    <bean name="serverHandler" class="com.work.model.mina.ServerHandlerImpl"></bean>
+    <!-- 使用spring创建server
+    int port,String charset,ServerHandler handler,String RECIVE_MSG_END
+    -->
+    <bean id="minaServer" class="com.work.model.mina.MinaServer" init-method="start">
+        <constructor-arg index="0" value="8087"/>
+        <constructor-arg index="1" value="GBK"/>
+        <constructor-arg index="2" ref = "serverHandler"/>
+        <constructor-arg index="3" value="/end"/>
+    </bean>
+</beans>

@@ -1,0 +1,12 @@
+com\bascrawler\socia\MessageDecoder.class
+com\bascrawler\socia\MinaClient.class
+com\bascrawler\socia\SDInterfaceEncode.class
+com\bascrawler\socia\ServerHandlerImpl.class
+com\bascrawler\socia\ClientTestThread.class
+com\bascrawler\socia\ServerHandler.class
+com\bascrawler\socia\TextDecoder.class
+com\bascrawler\socia\ServerTest.class
+com\bascrawler\socia\ClientTest.class
+com\bascrawler\socia\TextEncoder.class
+com\bascrawler\socia\Constants.class
+com\bascrawler\socia\MinaServer.class

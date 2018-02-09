@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mina.iml" filepath="$PROJECT_DIR$/mina.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhima/zhima.iml" filepath="$PROJECT_DIR$/zhima/zhima.iml" />
+    </modules>
+  </component>
+</project>
